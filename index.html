@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Blog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>My Personal Blog</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="blog-post">
+      <h2>First Blog Post</h2>
+      <p class="date">July 4, 2025</p>
+      <p>Welcome to my blog! This is my first post. I'm learning how to create a blog using HTML, CSS, and JavaScript!</p>
+    </section>
+
+    <section class="blog-post">
+      <h2>Learning JavaScript</h2>
+      <p class="date">July 3, 2025</p>
+      <p>JavaScript is awesome. I'm starting to use it to add interactivity to my site, like buttons and form validation.</p>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <h3>Contact Me</h3>
+    <form onsubmit="submitForm(event)">
+      <input type="text" placeholder="Your name" required />
+      <input type="email" placeholder="Your email" required />
+      <textarea placeholder="Your message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p>&copy; 2025 My Blog</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
